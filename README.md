@@ -11,7 +11,7 @@
   <a href="https://www.linkedin.com/in/apchathuradesilva/" target="blank"><img align="center"
       src="icons\linkedin.svg"
       alt="Chathura De Silva" height="30" width="40" /></a>
-  <a href="[https://fb.com/adam pithen wala](https://stackoverflow.com/users/21977864/chathura-de-silva)" target="blank"><img align="center"
+  <a href="https://stackoverflow.com/users/21977864/chathura-de-silva" target="blank"><img align="center"
       src="icons\stackoverflow.svg" height="30" width="40" /></a>
   <a href="https://www.hackerrank.com/chathuradesilva" target="blank"><img align="center"
       src="icons\hackerrank.svg"
