@@ -1,9 +1,10 @@
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="line_break.gif"></a>
 
+
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img align="right" src="computer.gif" alt="Chathura De Silva" height="220"/></a>
+
 <br>
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img align="right" src="computer.gif" alt="Chathura De Silva" /></a>
-
 <br>
 <h3 align="left">Connect with me :</h3>
 <p align="left">
