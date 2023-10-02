@@ -28,7 +28,7 @@
 <details>
   <summary><b>:large_blue_circle: Top languages</b></summary>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chathura-de-silva&hide=Tcl,HTML,Pascal,Perl,Cmake,Shell&layout=compact&langs_count=5&custom_title=Most%20languages%20in%20FOSS%20Projects&card_width=470px&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chathura-de-silva&hide=Tcl,HTML,Pascal,Perl,Cmake,Shell&layout=compact&langs_count=5&custom_title=Most%20Used%20Languages%20in%20FOSS%20Projects&card_width=470px&theme=transparent)
 
 </details>
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="line_break.gif"></a>
