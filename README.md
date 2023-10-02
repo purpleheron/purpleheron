@@ -22,13 +22,17 @@
 <details>
   <summary><b>:large_blue_circle: GitHub Statistics</b></summary><br>
   
-![Chathura's GitHub stats](https://github-readme-stats.vercel.app/api?username=chathura-de-silva&show=prs_merged_percentage&hide=contribs,issues&show_icons=true&custom_title=Chathura's%20Public%20Contributions&theme=transparent)
+![Chathura's GitHub stats](https://github-readme-stats.vercel.app/api?username=chathura-de-silva&show=prs_merged_percentage&hide=contribs,issues&show_icons=true&custom_title=Chathura's%20Public%20Contributions&theme=transparent&border_radius=10&border_color=c979dd#gh-dark-mode-only)
+
+![Chathura's GitHub stats](https://github-readme-stats.vercel.app/api?username=chathura-de-silva&show=prs_merged_percentage&hide=contribs,issues&show_icons=true&custom_title=Chathura's%20Public%20Contributions&theme=transparent&border_radius=10&border_color=4747d8#gh-light-mode-only)
 
 </details>  
 <details>
   <summary><b>:large_blue_circle: Top languages</b></summary><br>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chathura-de-silva&hide=Tcl,HTML,Pascal,Perl,Cmake,Shell&layout=compact&langs_count=5&custom_title=Most%20Used%20Languages%20in%20FOSS%20Projects&card_width=470px&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chathura-de-silva&hide=Tcl,HTML,Pascal,Perl,Cmake,Shell&layout=compact&langs_count=5&custom_title=Most%20Used%20Languages%20in%20FOSS%20Projects&card_width=470px&theme=transparent&border_radius=10&border_color=c979dd#gh-dark-mode-only)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chathura-de-silva&hide=Tcl,HTML,Pascal,Perl,Cmake,Shell&layout=compact&langs_count=5&custom_title=Most%20Used%20Languages%20in%20FOSS%20Projects&card_width=470px&theme=transparent&border_radius=10&border_color=4747d8#gh-light-mode-only)
 
 </details>
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="line_break.gif"></a>
