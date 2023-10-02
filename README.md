@@ -21,7 +21,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=chathura-de-silva&hide=Tcl,HTML,Pascal,Perl,Cmake,Shell&layout=compact&langs_count=5&custom_title=Most%20Used%20Languages%20in%20FOSS%20Projects&card_width=470px&bg_color=fdf5ff&text_color=000000&title_color=2f2f96&border_radius=10&border_color=4747d8#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
 
 </details>
-<br><br>
+<br>
 <h3 align="left">Connect with me :</h3>
 <p align="left">
   <a href="https://www.linkedin.com/in/apchathuradesilva/" target="blank"><img align="center"
