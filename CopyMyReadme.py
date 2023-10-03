@@ -15,7 +15,7 @@ def push_to_remote(remote_name='origin', branch_name='main'):
     try:
        
         # Add and commit the changes
-        subprocess.check_output(['git', 'add', 'README.md'])
+        subprocess.check_output(['git', 'add', '.'])
         subprocess.check_output(['git', 'commit', '-m', 'Update README.md'])
         # Run the 'git push' command to push changes to the remote repository
         subprocess.check_output(['git', 'push', remote_name, branch_name])
@@ -45,7 +45,7 @@ if not line_exists:
         gitignore.write("\n"+line_to_append)
 
 
-github_username = get_github_username()
+github_username = "chathura-de-silva"
 
 
 # Open the Markdown file for reading and writing ('r+')
