@@ -13,8 +13,13 @@ def get_github_username():
 
 def push_to_remote(remote_name='origin', branch_name='main'):
     try:
+       
+        # Add and commit the changes
+        subprocess.check_output(['git', 'add', 'README.md'])
+        subprocess.check_output(['git', 'commit', '-m', 'Update README.md'])
         # Run the 'git push' command to push changes to the remote repository
         subprocess.check_output(['git', 'push', remote_name, branch_name])
+        # print(output.decode())  # Print the output for debugging
         print("You are all done! Your README.md file is up to date and pushed to the remote repository.")
     except subprocess.CalledProcessError as e:
         print(f"Error pushing to remote: {e}")
@@ -26,15 +31,31 @@ def push_to_remote(remote_name='origin', branch_name='main'):
         sys.exit(1)
 
 
-with open('.gitignore', 'a') as gitignore:
-    gitignore.write('\n/CopyMyReadme.py')
+line_to_append = '/CopyMyReadme.py'
+gitignore_path = '.gitignore'
+
+# Check if the line is already in the .gitignore file
+with open(gitignore_path, 'r') as gitignore:
+    lines = gitignore.readlines()
+    line_exists = any(line.strip() == line_to_append for line in lines)
+
+# If the line doesn't exist, append it
+if not line_exists:
+    with open(gitignore_path, 'a') as gitignore:
+        gitignore.write("\n"+line_to_append)
+
 
 github_username = get_github_username()
 
-# Open the Markdown file for reading
+
+# Open the Markdown file for reading and writing ('r+')
 with open('README.md', 'r+') as profile_readme:
     # Read the content of the file
     content = profile_readme.read()
-    content.replace("chathura-de-silva", github_username)
-    profile_readme.write(content)
+    content = content.replace("chathura-de-silva", github_username)
+    profile_readme.seek(0)  # Move the file cursor to the beginning
+    profile_readme.write(content)  # Write the modified content back to the file
+    profile_readme.truncate()  # Truncate the remaining content
+
+  
 push_to_remote()
