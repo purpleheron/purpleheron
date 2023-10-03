@@ -37,3 +37,4 @@ with open('README.md', 'r+') as profile_readme:
     content = profile_readme.read()
     content.replace("chathura-de-silva", github_username)
     profile_readme.write(content)
+push_to_remote()
