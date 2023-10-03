@@ -5,11 +5,11 @@
 [This repository](https://github.com/chathura-de-silva/Chathura-De-Silva) contains a Python script that helps you automate updating your README.md file with the one in my profile but with your details.
 
 ## Steps
-1. <span style="color: yellow;">**Fork this repository with repository name set to your username.**</span>
+1. **Fork this repository with repository name set to your username.**
 
-2. <span style="color: yellow;">**Clone your forked repository.**</span>
+2. **Clone your forked repository.**
 
-3. <span style="color: yellow;">**Navigate to the cloned repository and Run the Python script.**</span>
+3. **Navigate to the cloned repository(You should be in root of the rpository) and Run the Python script.**
 
 
 ## Thats it!
