@@ -52,7 +52,7 @@ github_username = "chathura-de-silva"
 with open('README.md', 'r+') as profile_readme:
     # Read the content of the file
     content = profile_readme.read()
-    content = content.replace("chathura-de-silva", github_username)
+    content = content.replace("sharadashehan", github_username)
     profile_readme.seek(0)  # Move the file cursor to the beginning
     profile_readme.write(content)  # Write the modified content back to the file
     profile_readme.truncate()  # Truncate the remaining content
