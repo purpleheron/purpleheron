@@ -45,14 +45,14 @@ if not line_exists:
         gitignore.write("\n"+line_to_append)
 
 
-github_username = "chathura-de-silva"
+github_username = "sharadashehan"
 
 
 # Open the Markdown file for reading and writing ('r+')
 with open('README.md', 'r+') as profile_readme:
     # Read the content of the file
     content = profile_readme.read()
-    content = content.replace("sharadashehan", github_username)
+    content = content.replace("chathura-de-silva", github_username)
     profile_readme.seek(0)  # Move the file cursor to the beginning
     profile_readme.write(content)  # Write the modified content back to the file
     profile_readme.truncate()  # Truncate the remaining content
