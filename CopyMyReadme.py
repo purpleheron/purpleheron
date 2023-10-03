@@ -45,7 +45,7 @@ if not line_exists:
         gitignore.write("\n"+line_to_append)
 
 
-github_username = "sharadashehan"
+github_username = "chathura-de-silva"
 
 
 # Open the Markdown file for reading and writing ('r+')
