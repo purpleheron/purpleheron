@@ -34,8 +34,8 @@ def push_to_remote(remote_name='origin', branch_name='main'):
 
 # Run the Git command to remove 'copymyreadme.py' from the cache
 try:
-    subprocess.check_output(['git', 'rm', '--cached', 'copymyreadme.py'])
-    print("Successfully removed 'copymyreadme.py' from Git cache.")
+    subprocess.check_output(['git', 'rm', '--cached', 'CopyMyReadme.py'])
+    print("Successfully removed 'CopyMyReadme.py' from Git cache.")
 except subprocess.CalledProcessError as e:
     pass
     
