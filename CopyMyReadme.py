@@ -46,7 +46,9 @@ if not line_exists:
 
 
 github_username = get_github_username()
-
+input_git_username = input(f"Is {github_username} is your github username? If yes press enter else enter your github username : ")
+if input_git_username != "":
+    github_username = input_git_username
 # Prompt the user to input their social media usernames
 print("Leave next fields empty to drop respective social media icon from your README.md file.")
 linkedin_username = input("Enter your LinkedIn username: ")
