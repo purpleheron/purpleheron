@@ -1,7 +1,6 @@
 import subprocess
 import sys
 
-
 def get_github_username():
     try:
         # Run the git command to get the user's GitHub username
@@ -33,7 +32,13 @@ def push_to_remote(remote_name='origin', branch_name='main'):
         print("Commit the repository manually to the remote repository now. You will be all done!")
         sys.exit(1)
 
-
+# Run the Git command to remove 'copymyreadme.py' from the cache
+try:
+    subprocess.check_output(['git', 'rm', '--cached', 'copymyreadme.py'])
+    print("Successfully removed 'copymyreadme.py' from Git cache.")
+except subprocess.CalledProcessError as e:
+    pass
+    
 line_to_append = '/CopyMyReadme.py'
 gitignore_path = '.gitignore'
 
@@ -51,7 +56,6 @@ if not line_exists:
 github_username = get_github_username()
 
 # Prompt the user to input their social media usernames
-print("Leave next fields empty to drop respective social media icon from your README.md file.")
 linkedin_username = input("Enter your LinkedIn username: ")
 stackoverflow_url = input("Enter your Stack Overflow url: ")
 hackerrank_username = input("Enter your HackerRank username: ")
