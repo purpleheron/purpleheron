@@ -9,7 +9,7 @@
 
 2. **Clone your forked repository.**
 
-3. **Navigate to the cloned repository(You should be in root of the rpository) and Run the Python script.**
+3. **Navigate to the cloned repository(You should be in root of the repository) and Run the Python script. Enter the relavant info for the prompts.**
 
 
 ## Thats it!
@@ -17,7 +17,7 @@
 
 >[!IMPORTANT]
 >* Script will ask for your social media usernames and stackoverflow url.
->*   _If your GitHub username is not already configured, the script will prompt you to enter it._
+>*   _You will be prompted to confirm your github username. If your GitHub username is not already configured, the script will prompt you to enter it._
 >*    _The script will automatically update your README.md file with your GitHub username and push the changes to your forked repository. If it fails, you can manually commit the changes._
 
 
